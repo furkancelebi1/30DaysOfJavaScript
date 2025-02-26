@@ -1,3 +1,5 @@
+//? Yorum satırları / Scope kavramı / Değişken Türleri
+
 // Yorum satırı
 
 /* Yorum satırı
