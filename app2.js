@@ -1,4 +1,4 @@
-//? Veri Tipleri ve Operatörler
+//? Veri Tipleri , Operatörler ve Diyalog Kutuları
 
 //! VERİ TİPLERİ
 
@@ -48,3 +48,31 @@ console.log(typeof isim);
 //? >= (Büyük eşittir)
 //? == (Eşittir)
 //? != (Eşit değildir)
+
+//! Diyalog Kutuları
+
+//? alert() (Uyarı kutusu)
+//? confirm() (Onay kutusu)
+//? prompt() (Giriş kutusu) // Kullanıcıdan alınan veriler string olarak alınır.
+
+//! Koşul İfadeleri
+
+//? if
+//? else
+//? else if
+//? return
+
+//? switch
+//? case
+//? break
+//? default
+
+//! Tür Dönüşümleri
+
+//? Number() (Sayıya dönüştürme)
+//? parseInt() (Tam sayıya dönüştürme)
+//? parseFloat() (Ondalıklı sayıya dönüştürme)
+//? String() (Metin tipine dönüştürme)
+//? boolean() (Mantıksal değere dönüştürme)
+//? undefined() (Tanımsız değere dönüştürme)
+//? null() (Boş değere dönüştürme)

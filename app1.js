@@ -2,6 +2,8 @@
 
 // Yorum satırı
 
+// // Tek satırlık yorum satırı 
+
 /* Yorum satırı
 ?
 !
