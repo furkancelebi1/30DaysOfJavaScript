@@ -1,4 +1,4 @@
-//? Veri Tipleri , Operatörler ve Diyalog Kutuları
+//? Veri Tipleri , Operatörler , Diyalog Kutuları , Koşul İfadeleri ve Tür Dönüşümleri
 
 //! VERİ TİPLERİ
 
