@@ -7,6 +7,8 @@ const firstCardBody = document.querySelectorAll(".list-group")[0];
 const secondCardBody = document.querySelectorAll(".list-group")[0];
 const clearButton = document.querySelector("#clearButton");
 
+let todos = [];
+
 function runEvents() {
   form.addEventListener("submit", addTodo);
 }
@@ -18,6 +20,8 @@ function addTodo(e) {
   } else {
     //Arayüz ekleme
     addTodoUI(inputText);
+    addTodoStorage(inputText);
+
   }
   e.preventDefault();
 }
@@ -39,3 +43,17 @@ function addTodoUI(newTodo) {
 
   addInput.value = "";
 }
+function addTodoStorage(newTodo) {
+ checkTodosFromStorage();
+  todos.push(newTodo);
+  localStorage.setItem('todos', JSON.stringify(todos));
+}
+
+function checkTodosFromStorage(){
+  if (localStorage.getItem('todos') === null) {
+    todos = [];
+  } else {
+    todos = JSON.parse(localStorage.getItem('todos'));
+  }
+}
+  
